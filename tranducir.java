@@ -33,8 +33,8 @@ public class tranducir extends JFrame {
     File original_file;
 
     public tranducir() {
-        Translate.setClientId("travis92");
-        Translate.setClientSecret("XMegIKldilRGkwcnRmO7nK1F5dw4jIQt2uLeCpFw9W4=");
+        Translate.setClientId("xxxxxxxxxxxxxx");
+        Translate.setClientSecret("xxxxxxxxx");
     }
 
     /*
