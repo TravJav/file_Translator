@@ -49,13 +49,7 @@ public class tranducir extends JFrame {
         if (dialog == JFileChooser.APPROVE_OPTION) {
             File original_file = fc.getSelectedFile();
 
-//            original_file = new File(inputFile.getAbsoluteFile().getAbsolutePath());
-            /*
-            FileReader reader = new FileReader(original_file);
-            BufferedReader br = new BufferedReader(reader);
-            userField.read(br, null);
-            br.close();
-             */
+
             extract_data(original_file);
 
         }
