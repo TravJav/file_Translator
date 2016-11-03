@@ -73,6 +73,8 @@ public class tranducir extends JFrame {
 
         /*
         Switch target language based on users input
+        then wrap the users input file and read into system as String since 
+        api will not accept FILE as an arg
          */
         try {
             switch (target) {
